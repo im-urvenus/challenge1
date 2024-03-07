@@ -1,9 +1,11 @@
+/* Universal Selector*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* The whole background of site will be this color*/
 body {
     background-color: #d9dcd6;
 }
@@ -20,10 +22,12 @@ body {
     font-size: 48px;
 }
 
+/* letters "seo" wil be this specific color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* placing class selector to the right at this size and font*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +36,29 @@ body {
     font-size: 20px;
 }
 
+/* no stlye*/
 .header ul {
     list-style-type: none;
 }
 
+/* block level appearance, inline with header*/
 .header ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* text will be this color across site*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* font size for all p tags*/
 p {
     font-size: 16px;
 }
 
+/* positioning hero image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,81 +68,63 @@ p {
     background-position: center;
 }
 
+/* placing image*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* placing image*/
 .float-right {
     float: right;
     margin-right: 25px;
 }
 
+/* will aplly to all in class content*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/*Everything under benefits will have these props applied*/
 .benefits {
-    margin-right:-350px;
+    margin-right: 20px;
     padding: 20px;
-    clear:right;
-    float:right;
+    clear: both;
+    float: right;
     width: 20%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
-.benefit-lead {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
+/* setting margin area on bottom and color*/
+.benefit-lead,
+.benefit-brand,
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
+/*setting margin area on bottom and centering text*/
+.benefit-lead h3,
+.benefit-brand h3,
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
+/*all benefit img's will share properties*/
+.benefit-lead img,
+.benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/*selectors will share properties*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
@@ -145,19 +136,21 @@ p {
     color: #ffffff;
 }
 
+/*selectors will share properties*/
 .search-engine-optimization img, 
 .online-reputation-management, 
 .social-media-marketing img {
     max-height: 200x;
 }
 
-
+/*selectors will share properties*/
 .search-engine-optimization img, 
 .online-reputation-management img,
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/*selectors will share properties*/
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
@@ -165,6 +158,7 @@ p {
     font-size: 36px;
 }
 
+/*footer will be in bottom center of page, specific font, space around elements content */
 .footer {
     padding: 30px;
     clear: both;
@@ -172,6 +166,7 @@ p {
     text-align: center;
 }
 
+/*size of text for  selector*/
 .footer h2 {
     font-size: 20px;
 }
